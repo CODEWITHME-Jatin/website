@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Air Quality Monitoring Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: url(12.webp);
+            background-size: cover;
+        }
+        
+        form {
+            margin-top: 20px;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    
+        <h1 style="font-family:Verdana, Geneva, Tahoma, sans-serif; color: blue;">
+            <center><u>Air Quality Monitoring Project</h1></center></u>
+            <br>
+        <h3 style="color: rgb(1, 29, 2); font-family: Georgia, 'Times New Roman', Times, serif;">  Welcome to our Air Quality
+               Monitoring project, where every breath counts towards a cleaner, 
+               healthier environment. Air quality is a critical indicator of environmental
+                health, impacting not only our physical well-being but also the ecosystems 
+                around us. By joining forces with us, you become an integral part of a global
+               movement dedicated to tracking and addressing air pollution issues.<br><br>
+
+              Our project aims to harness the collective power of citizen science to map
+               air quality data across diverse landscapes and communities. Whether you're 
+               in a bustling city or a remote rural area, your observations play a vital 
+               role in identifying pollution sources, monitoring trends, and advocating for
+                sustainable solutions. Together, we can turn data into action, influencing 
+                policies that promote cleaner air and safeguard public health.</h3>
+        <br>
+        <h1 style="color: #f00909; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">What  You Can Contribute:</h1>
+        <h3><ul>
+            <li>Measure air quality using handheld sensors or observation techniques.</li><br>
+            <li>Document air pollution sources, such as industrial facilities, traffic congestion, or natural events.</li>
+            <br>
+            <li>Share photos or videos that illustrate air quality conditions in your area.</li>
+        </ul></h3>
+        <br>
+
+        <h1 style="color: #f00909; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+        Why It Matters:</h1>
+        <h3> Air quality affects public health, ecosystems, and quality of life.
+            Monitoring air quality is crucial for safeguarding public health, protecting 
+            the environment, and informing policy decisions. Poor air quality is associated
+             with respiratory and cardiovascular diseases, environmental degradation, and
+              climate change impacts. <br><br>By collecting and analyzing air quality data through 
+              citizen science initiatives like ours, we empower communities to advocate for 
+              cleaner air, support evidence-based policymaking, and contribute to sustainable 
+              development goals. Monitoring air quality not only improves public health outcomes
+               and environmental quality but also promotes equity and social justice by addressing
+                disparities in exposure to air pollution.<br><br> Join us 
+            in this vital effort to create a healthier and more sustainable future for everyone. 
+            Your contributions will help identify pollution hotspots, track changes
+             over time, and advocate for cleaner air policies.</h3>
+        <br>
+             <h1 style="color: #f00909; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+             'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">How to Participate:
+             </h1>
+        <ol>
+            <li><h2>Data Collection:</h2>
+
+                <ul><h3>
+                    <li>Use air quality monitoring devices to measure pollutants like PM2.5, ozone, or nitrogen dioxide.</li>
+                    <br><li>Conduct visual inspections and note observations related to air quality factors.</li>
+                </ul></h3>
+
+            </li>
+            <li><h2>Photo and Video Upload:</h2>
+                <ul><h3>
+                    <li>Capture photos or videos of smog, emissions, industrial activities, or clean air initiatives.</li>
+                    <br><li>Upload media files to showcase air quality conditions in your surroundings.</li>
+                </ul></h3>
+            </li>
+        </ol>
+        <br>
+
+        <h2 style="color: #f90505; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Submission Guidelines:</h2><h3>
+         Ensure photos and videos are clear and relevant to air quality 
+         observations. Provide context or descriptions for uploaded media to 
+         enhance data interpretation.</p>
+         <br></body></h3>
+
+        <h2 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: #ff0000;">
+        Data Upload Form</h2><br>
+
+        <form action="process_registration.php" method="post"> 
+            <label for="fullname"><b>First Name</b></label> <br><br>
+            <input type="text" placeholder="Enter Full Name" name="fullname" required> 
+            <label for="lastname"><b>Last Name</b></label><br><br>
+             <input type="text" placeholder="Enter Last Name" name="lastname" required> 
+             <label for="mobile"><b>Mobile Number</b></label> <br><br>
+             <input type="tel" placeholder="Enter Mobile Number" name="mobile" pattern="[0-9]{10}"
+              required> <br><br>
+              <label for="email"><b>Email</b></label><br><br>
+              <input type="text" placeholder="Enter email id" name="email" required>
+              <label for="air"><b>Air Quality Observation</b></label><br><br>
+
+                 <input type="text"
+                  placeholder="Enter Air Quality Observation" size="170" 
+                  name="Air Quality Observation" required ><br><br>
+
+                  <b><label for="media">Upload Photo/Video:</label></b>
+        <input type="file" id="media" name="media" accept="image/*, video/*" required>
+        
+<br><br><center>
+             <h3><a href="main.html"><button type="submit">Submit</button></a></center></h3>
+        </form>
+
+        <h1 style="color: #f00909; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+             'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Community Impact:</h1>
+             <h3>By participating in this project, you join a global network 
+                of individuals committed to promoting clean air and environmental 
+                stewardship. Together, we can drive positive change and advocate for
+                 healthier communities.</h3><br>
+
+                 <h1 style="color: #680ff8; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+                 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                 
+                 <center> Ready to contribute to better air quality? Start by submitting your
+                   observations and media files today!</h1></center>
+
+    </div>
+</body>
+</html>
